@@ -8,7 +8,7 @@ class Operation:
     
     def autoType(self,keyControl,word,noOfTimes):
         for i in range(noOfTimes):
-            if len(word)>=50:
+            if len(word)>=1000:
                 return False
             for i in word:
                 if i==" ":
